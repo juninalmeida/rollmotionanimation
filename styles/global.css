@@ -48,3 +48,8 @@ h2 {
   line-height: 1.2;
   /* bold ele já por padrão que já foi definido acima */
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

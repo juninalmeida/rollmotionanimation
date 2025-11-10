@@ -33,10 +33,6 @@ html, button {
    font: 500 1rem/1.5 var(--ff-based) /*corpo HTML, e BUTTON será definido por Montserrat */
 }
 
-html {
-  zoom: .5
-}
-
 h1, h2 {
   font-family: 'Syne', sans-serif;
 }
@@ -48,7 +44,7 @@ h1 {
 }
 
 h2 {
-  font: var(--text-lg);
+  font-size: var(--text-lg);
   line-height: 1.2;
   /* bold ele já por padrão que já foi definido acima */
 }

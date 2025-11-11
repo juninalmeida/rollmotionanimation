@@ -41,3 +41,9 @@
     transform: translateX(-132px);
   }
 }
+
+@media (max-width: 768px) {
+  .banner {
+    padding-block: 1.2rem;  
+  }
+}

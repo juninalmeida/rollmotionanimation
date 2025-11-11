@@ -120,10 +120,6 @@ section.gallery {
     text-align: center;
   }
 
-  section.gallery header span {
-    /* já herda text-align: center */
-  }
-
   section.gallery h2 {
     font-size: 1.75rem;
     white-space: nowrap;   

@@ -110,3 +110,45 @@ section.gallery {
     transform: translateY(100%);
   }
 }
+
+@media (max-width: 768px) {
+  section.gallery {
+    padding: 2.5rem 1.5rem 1.5rem;
+  }
+
+  section.gallery header {
+    text-align: center;
+  }
+
+  section.gallery header span {
+    /* já herda text-align: center */
+  }
+
+  section.gallery h2 {
+    font-size: 1.75rem;
+    white-space: nowrap;   
+  }
+
+  section.gallery .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  section.gallery figure{
+    width: 19.5rem;
+    height: 16rem;
+    margin-inline: auto;
+    border-radius: 2rem;
+  }
+
+  section.gallery figure > img {
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
+  }
+
+
+
+}
